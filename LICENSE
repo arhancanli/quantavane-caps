@@ -1,0 +1,13 @@
+Copyright (c) 2026 Arhan Canli (Quantavane)
+
+The caps in caps/ and points/, the red-control files in check/red/, the output in check/results.txt, README.md and
+the other text of this repository are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material for any purpose, including commercially, provided you give appropriate credit
+("Arhan Canli, Quantavane"), link to the licence, and indicate whether changes were made.
+
+Each cap was found from a cap in Yves Edel's tables of large caps (www.yvesedel.de/Matritzen/CAPs) and keeps most of
+its points (see README.md); please credit his tables as well.
+
+The code (the .py, .c and .sh files in check/) is licensed separately under the MIT License (LICENSE-CODE).

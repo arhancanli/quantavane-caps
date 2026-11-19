@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these caps, please cite them as below, with Yves Edel's tables of large caps (www.yvesedel.de/Matritzen/CAPs), from whose caps they were found."
+type: dataset
+title: "Caps in PG(8,3), PG(10,3), PG(12,3), PG(9,5), PG(5,7), PG(8,7) and PG(4,16)"
+abstract: "Caps of sizes 542 in PG(8,3), 2759 in PG(10,3), 13428 in PG(12,3), 17151 in PG(9,5), 442 in PG(5,7), 21928 in PG(8,7) and 630 in PG(4,16), found in November 2026 by exact-refill large-neighbourhood search from caps in Yves Edel's tables, given as check matrices in the layout of Edel's pages and as point lists, with two separately written checking programs, their output and red controls."
+authors:
+  - family-names: Canli
+    given-names: Arhan
+    affiliation: Quantavane
+    email: arhan@quantavane.com
+license: CC-BY-4.0
+url: "https://quantavane.com"
+repository-code: "https://github.com/arhancanli/quantavane-caps"
+keywords:
+  - caps
+  - projective geometry
+  - finite fields
+  - linear codes
+  - exact verification

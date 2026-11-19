@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+/check/check_q_b
+# local agent tooling state (never part of the repository)
+.claude-flow/
+.swarm/
+ruvector.db
+agentdb*

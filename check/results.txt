@@ -1,0 +1,173 @@
+run_all.sh 2026-11-19T05:43:16Z; Python 3.12.13; numpy 2.5.4; Apple clang version 21.0.0 (clang-2100.3.34.2)
+
+=== pg8_3_542: 542 points, q = 3, field model prime
+--- caps/pg8_3_542.txt (sha256 27509942a3c0187a7f3cf4427b4cfe17327959d628f29224edba99878abe6f2f)
+A: file=caps/pg8_3_542.txt PG(8,3) field=prime points=542 format=True size==expected(542)=True cap=True
+A: RESULT PASS
+B: PG(8,3) field=prime points=542 format=1 duplicates=0 size==expected(542)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg8_3_542.txt (sha256 1efb1cc98562a61546fa742ef9cf652acbffb265049115ab7e659e6c713a6494)
+A: file=points/pg8_3_542.txt PG(8,3) field=prime points=542 format=True size==expected(542)=True cap=True
+A: RESULT PASS
+B: PG(8,3) field=prime points=542 format=1 duplicates=0 size==expected(542)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg8_3_542.txt (sha256 4f39107b2586e7d568578dfef5c8b96eb0d5872e177d94b5d2039b6ff3cb039a): both checkers must refuse it
+A: file=check/red/pg8_3_542.txt PG(8,3) field=prime points=542 format=True size==expected(542)=True cap=False (points 10, 271 and a third are collinear)
+A: RESULT FAIL
+B: PG(8,3) field=prime points=542 format=1 duplicates=0 size==expected(542)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg10_3_2759: 2759 points, q = 3, field model prime
+--- caps/pg10_3_2759.txt (sha256 7ced2c5488474246d7d9c5ffb05ff2fbf15ce167e6045688fde1873e58603ffb)
+A: file=caps/pg10_3_2759.txt PG(10,3) field=prime points=2759 format=True size==expected(2759)=True cap=True
+A: RESULT PASS
+B: PG(10,3) field=prime points=2759 format=1 duplicates=0 size==expected(2759)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg10_3_2759.txt (sha256 9d7e514c56c0f065d8d43c6042fba723fcbefee695385cbba7a2ed7c36ff4a81)
+A: file=points/pg10_3_2759.txt PG(10,3) field=prime points=2759 format=True size==expected(2759)=True cap=True
+A: RESULT PASS
+B: PG(10,3) field=prime points=2759 format=1 duplicates=0 size==expected(2759)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg10_3_2759.txt (sha256 7495c0dd0f3dacb8152a95afbe1563220dbdc0a5cae4b971d17f804b405cfa4b): both checkers must refuse it
+A: file=check/red/pg10_3_2759.txt PG(10,3) field=prime points=2759 format=True size==expected(2759)=True cap=False (points 56, 2491 and a third are collinear)
+A: RESULT FAIL
+B: PG(10,3) field=prime points=2759 format=1 duplicates=0 size==expected(2759)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg12_3_13428: 13428 points, q = 3, field model prime
+--- caps/pg12_3_13428.txt (sha256 0fa1d0b40ba18170a6e166845061a794470450e404fbae69d281447c0363fc98)
+A: file=caps/pg12_3_13428.txt PG(12,3) field=prime points=13428 format=True size==expected(13428)=True cap=True
+A: RESULT PASS
+B: PG(12,3) field=prime points=13428 format=1 duplicates=0 size==expected(13428)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg12_3_13428.txt (sha256 104de9ff1e940b8904d183a328c503ef89a3785764421b2aec667413cc8da5f9)
+A: file=points/pg12_3_13428.txt PG(12,3) field=prime points=13428 format=True size==expected(13428)=True cap=True
+A: RESULT PASS
+B: PG(12,3) field=prime points=13428 format=1 duplicates=0 size==expected(13428)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg12_3_13428.txt (sha256 80508cd346c99035ce99362222077bfba4b9b8efb9df1c4a9275d625ad5659a4): both checkers must refuse it
+A: file=check/red/pg12_3_13428.txt PG(12,3) field=prime points=13428 format=True size==expected(13428)=True cap=False (points 472, 7971 and a third are collinear)
+A: RESULT FAIL
+B: PG(12,3) field=prime points=13428 format=1 duplicates=0 size==expected(13428)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg9_5_17151: 17151 points, q = 5, field model prime
+--- caps/pg9_5_17151.txt (sha256 971b116407d98ee41a0131559a5fc87542886fe42aed3e6d10706713f4eadd8a)
+A: file=caps/pg9_5_17151.txt PG(9,5) field=prime points=17151 format=True size==expected(17151)=True cap=True
+A: RESULT PASS
+B: PG(9,5) field=prime points=17151 format=1 duplicates=0 size==expected(17151)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg9_5_17151.txt (sha256 341a7fd4a02a518a91d207ef571816ba87ed8f6151e639d15646cf7a8314c994)
+A: file=points/pg9_5_17151.txt PG(9,5) field=prime points=17151 format=True size==expected(17151)=True cap=True
+A: RESULT PASS
+B: PG(9,5) field=prime points=17151 format=1 duplicates=0 size==expected(17151)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg9_5_17151.txt (sha256 18f03f9895923fdd53346431160c989278dce4d8f0d911b56cbb058ecea7839e): both checkers must refuse it
+A: file=check/red/pg9_5_17151.txt PG(9,5) field=prime points=17151 format=True size==expected(17151)=True cap=False (points 0, 11103 and a third are collinear)
+A: RESULT FAIL
+B: PG(9,5) field=prime points=17151 format=1 duplicates=0 size==expected(17151)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg5_7_442: 442 points, q = 7, field model prime
+--- caps/pg5_7_442.txt (sha256 ea0204900048f1f42920658eca218e2be0675944fb9d80f36592a0fb00c09a63)
+A: file=caps/pg5_7_442.txt PG(5,7) field=prime points=442 format=True size==expected(442)=True cap=True
+A: RESULT PASS
+B: PG(5,7) field=prime points=442 format=1 duplicates=0 size==expected(442)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg5_7_442.txt (sha256 59437aa4adf6ae45a8d231526e1d0b7c5aec2bd1fe618fa3a5a045a19df09955)
+A: file=points/pg5_7_442.txt PG(5,7) field=prime points=442 format=True size==expected(442)=True cap=True
+A: RESULT PASS
+B: PG(5,7) field=prime points=442 format=1 duplicates=0 size==expected(442)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg5_7_442.txt (sha256 a9f9445840466528134a2dc579641c8fcb519dc467341b54c158c9e32d5e2a34): both checkers must refuse it
+A: file=check/red/pg5_7_442.txt PG(5,7) field=prime points=442 format=True size==expected(442)=True cap=False (points 3, 221 and a third are collinear)
+A: RESULT FAIL
+B: PG(5,7) field=prime points=442 format=1 duplicates=0 size==expected(442)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg8_7_21928: 21928 points, q = 7, field model prime
+--- caps/pg8_7_21928.txt (sha256 8f3d5a537d7f67f3dd19fe1f9d0ca37d32f02e784ce8d4a45e2caca0be5619ea)
+A: file=caps/pg8_7_21928.txt PG(8,7) field=prime points=21928 format=True size==expected(21928)=True cap=True
+A: RESULT PASS
+B: PG(8,7) field=prime points=21928 format=1 duplicates=0 size==expected(21928)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg8_7_21928.txt (sha256 21bd7ff95932754ef4cdabe392d41d2bd2440a4919c85294dc6ffac2576a5d2c)
+A: file=points/pg8_7_21928.txt PG(8,7) field=prime points=21928 format=True size==expected(21928)=True cap=True
+A: RESULT PASS
+B: PG(8,7) field=prime points=21928 format=1 duplicates=0 size==expected(21928)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg8_7_21928.txt (sha256 cca6a1e48ef05598a5a2ae856cce30d0bfe24364122611b810c8c7833852cee7): both checkers must refuse it
+A: file=check/red/pg8_7_21928.txt PG(8,7) field=prime points=21928 format=True size==expected(21928)=True cap=False (points 1162, 10964 and a third are collinear)
+A: RESULT FAIL
+B: PG(8,7) field=prime points=21928 format=1 duplicates=0 size==expected(21928)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== pg4_16_630: 630 points, q = 16, field model poly:11001
+--- caps/pg4_16_630.txt (sha256 143b535ff4cb6e49a8158a9b1cf229f3d2afde97a254260ca4fc2eb90e6cb962)
+A: file=caps/pg4_16_630.txt PG(4,16) field=poly:11001 points=630 format=True size==expected(630)=True cap=True
+A: RESULT PASS
+B: PG(4,16) field=poly:11001 points=630 format=1 duplicates=0 size==expected(630)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- points/pg4_16_630.txt (sha256 065dd8c3805ac5c015c4f928bb88486a95baf6ec7bcec4ed48cef7001554af84)
+A: file=points/pg4_16_630.txt PG(4,16) field=poly:11001 points=630 format=True size==expected(630)=True cap=True
+A: RESULT PASS
+B: PG(4,16) field=poly:11001 points=630 format=1 duplicates=0 size==expected(630)=1 collinear_triple=0
+B: RESULT PASS
+exit codes: check_q_a.py 0, check_q_b 0
+--- red control check/red/pg4_16_630.txt (sha256 5cbf58b93f2dda3c18b4890857aae8f8f42cdd2d05b22f8cbf3a4c68765a8989): both checkers must refuse it
+A: file=check/red/pg4_16_630.txt PG(4,16) field=poly:11001 points=630 format=True size==expected(630)=True cap=False (points 0, 315 and a third are collinear)
+A: RESULT FAIL
+B: PG(4,16) field=poly:11001 points=630 format=1 duplicates=0 size==expected(630)=1 collinear_triple=1
+B: RESULT FAIL
+red control: both checkers refused it (collinear triple), as required
+
+=== code parameters (check/params.py)
+P: file=caps/pg8_3_542.txt q=3 matrix 9 x 542, rank 9; code length 542, dimension 533; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 587529 > q^9 = 19683: True
+P: RESULT OK: with no three columns dependent, an [542,533,4]_3 code
+P: file=caps/pg10_3_2759.txt q=3 matrix 11 x 2759, rank 11; code length 2759, dimension 2748; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 15224163 > q^11 = 177147: True
+P: RESULT OK: with no three columns dependent, an [2759,2748,4]_3 code
+P: file=caps/pg12_3_13428.txt q=3 matrix 13 x 13428, rank 13; code length 13428, dimension 13415; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 360622369 > q^13 = 1594323: True
+P: RESULT OK: with no three columns dependent, an [13428,13415,4]_3 code
+P: file=caps/pg9_5_17151.txt q=5 matrix 10 x 17151, rank 10; code length 17151, dimension 17141; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 2353185805 > q^10 = 9765625: True
+P: RESULT OK: with no three columns dependent, an [17151,17141,4]_5 code
+P: file=caps/pg5_7_442.txt q=7 matrix 6 x 442, rank 6; code length 442, dimension 436; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 3511249 > q^6 = 117649: True
+P: RESULT OK: with no three columns dependent, an [442,436,4]_7 code
+P: file=caps/pg8_7_21928.txt q=7 matrix 9 x 21928, rank 9; code length 21928, dimension 21919; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 8654806177 > q^9 = 40353607: True
+P: RESULT OK: with no three columns dependent, an [21928,21919,4]_7 code
+P: file=caps/pg4_16_630.txt q=16 matrix 5 x 630, rank 5; code length 630, dimension 625; sphere-packing: 1 + m(q-1) + C(m,2)(q-1)^2 = 44589826 > q^5 = 1048576: True
+P: RESULT OK: with no three columns dependent, an [630,625,4]_16 code
+
+=== weight distributions (check/weights.py)
+W: file=caps/pg5_7_442.txt PG(5,7) points=442 hyperplanes=19608
+W: A'_0 = 1, A'_350 = 48, A'_354 = 6, A'_355 = 12, A'_356 = 18, A'_357 = 24, A'_358 = 48, A'_359 = 36, A'_360 = 42, A'_361 = 36, A'_362 = 120, A'_363 = 342, A'_364 = 924, A'_365 = 1578, A'_366 = 1740, A'_367 = 2064, A'_368 = 1914, A'_369 = 1830, A'_370 = 2130, A'_371 = 2736, A'_372 = 3966, A'_373 = 4584, A'_374 = 5082, A'_375 = 5586, A'_376 = 6042, A'_377 = 6444, A'_378 = 8514, A'_379 = 8796, A'_380 = 8424, A'_381 = 8172, A'_382 = 6372, A'_383 = 4740, A'_384 = 3648, A'_385 = 3360, A'_386 = 3102, A'_387 = 3234, A'_388 = 2478, A'_389 = 2184, A'_390 = 2076, A'_391 = 1722, A'_392 = 1230, A'_393 = 768, A'_394 = 528, A'_395 = 210, A'_396 = 72, A'_397 = 42, A'_398 = 30, A'_412 = 18, A'_413 = 36, A'_414 = 42, A'_415 = 48, A'_416 = 36, A'_417 = 30, A'_418 = 36, A'_423 = 6, A'_428 = 288, A'_434 = 48, A'_442 = 6
+W: sum A'_w = 117649 (q^(k+1) = 117649: True); sum w A'_w = 44572164 (m (q-1) q^k = 44572164: True)
+W: largest weight 442; weight of the last row 434
+W: the distribution written in the file matches
+W: RESULT OK
+W: file=caps/pg4_16_630.txt PG(4,16) points=630 hyperplanes=69905
+W: A'_0 = 1, A'_426 = 45, A'_576 = 255, A'_577 = 810, A'_579 = 630, A'_580 = 4590, A'_582 = 26520, A'_584 = 46410, A'_585 = 61965, A'_586 = 73440, A'_587 = 82620, A'_588 = 161670, A'_589 = 81855, A'_590 = 156315, A'_591 = 49725, A'_592 = 68850, A'_593 = 12240, A'_594 = 36915, A'_595 = 5355, A'_596 = 5535, A'_597 = 13770, A'_598 = 16065, A'_599 = 17595, A'_600 = 15810, A'_601 = 19125, A'_602 = 32130, A'_603 = 17595, A'_604 = 25245, A'_605 = 5355, A'_606 = 6375, A'_628 = 3330, A'_630 = 435
+W: sum A'_w = 1048576 (q^(k+1) = 1048576: True); sum w A'_w = 619315200 (m (q-1) q^k = 619315200: True)
+W: largest weight 630; weight of the last row 630
+W: the distribution written in the file matches
+W: RESULT OK
+
+ALL PASSED
